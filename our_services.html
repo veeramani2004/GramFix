@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GramFix</title>
+    <link rel="stylesheet" href="our_services.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+</head>
+
+
+<body>
+
+    <header class="site-header">
+        <nav class="nav-bar">
+            <div class="logo">
+                <img src="assets/logo.png" alt="logo image">
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html" class="active">Home</a></li>
+                <li><a href="our_services.html">Our Services</a></li>
+                <li><a href="#service">How It Works</a></li>
+                <li><a href="#booking">For Proviters </a></li>
+                <li><a href="#booking">About Us </a></li>
+            </ul>
+
+            <div class="user-menu">
+                <button class="sign-in-button">Sign in</button>
+                <button class="sign-up-button">Sign up</button>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="services-page">
+        <div class="filter-sidebar">
+            <div class="filter-section">
+
+                <div class="filter-heading">
+                    <h3>Categories</h3>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+
+
+                <button class="category active">
+                    <i class="fa-solid fa-grip"></i>
+                    <span>All Services</span>
+                </button>
+
+                <button class="category">
+                    <i class="fa-solid fa-house"></i>
+                    <span>Home Services </span>
+                </button>
+
+
+                <button class="category">
+                    <i class="fa-solid fa-motorcycle"></i>
+                    <span> Vehicle Services</span>
+                </button>
+
+
+                <button class="category">
+                    <i class="fa-solid fa-wrench"></i>
+                    <span> Repair & Maintenance </span>
+                </button>
+
+
+                <button class="category">
+                    <i class="fa-solid fa-broom"></i>
+                    <span>Cleaning Services</span>
+                </button>
+
+
+                <button class="category">
+                    <i class="fa-solid fa-ellipsis"></i>
+                    <span>Other Services</span>
+                </button>
+
+            </div>
+
+
+            <div class="filter-section">
+                <div class="filter-heading">
+                    <h3>Location </h3>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+
+                <div class="location-box">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <span>Chennai </span>
+                    <i class="fa-solid fa-chevron-down"></i>
+                </div>
+
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-heading">
+                    <h3> Price Range </h3>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+
+                <div class="price-inputs">
+                    <input type="number" placeholder="Min">
+                    <span>-</span>
+                    <input type="number" placeholder="Max">
+                </div>
+            </div>
+
+            <div class="filter-section">
+                <div class="filter-heading">
+                    <h3> Rating</h3>
+                    <i class="fa-solid fa-chevron-up"></i>
+                </div>
+                <label class="rating-option">
+                    <input type="checkbox">
+                    <span class="stars">★★★★ </span>
+                    <span> 4 stars & above</span>
+                </label>
+            </div>
+        </div>
+
+        <section class="services-content">
+            <div class="services-top">
+                <h1>Popular Services <span id="serviceCount"> (12)</span></h1>
+                <div class="sort-box">
+                    <span>Sort by </span>
+                    <select>
+                        <option>Popular</option>
+                        <option>Rating</option>
+                        <option> Price: Low to High</option>
+                        <option> Price: High to Low</option>
+                    </select>
+                </div>
+            </div>
+            <div class="all-service-cards" id="serviceCards"> </div>
+        </section>
+    </main>
+    <script src="services.js"></script>
+
+
+
+
+
+</body>
+
+</html>

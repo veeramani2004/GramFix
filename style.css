@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary: hsl(211, 67%, 21%);
+    --primary-light: hsl(211, 64%, 40%);
+    --accent: hsl(38, 92%, 50%);
+    --accent-light: hsl(43, 96%, 56%);
+    --background: hsl(210, 40%, 98%);
+    --white: hsl(0, 0%, 100%);
+    --text-primary: hsl(221, 38%, 15%);
+    --text-secondary: hsl(215, 16%, 47%);
+}
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 100px;
+
+    .logo {
+        img {
+            height: 80px;
+        }
+    }
+
+    .nav-menu {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        gap: 40px;
+
+        li a {
+            color: var(--text-primary);
+            text-decoration: none;
+            font-size: 20px;
+            font-weight: 500;
+
+        }
+
+        li a:hover {
+            color: var(--accent);
+
+        }
+    }
+
+    .user-menu {
+        display: flex;
+        gap: 30px;
+
+        button {
+
+            padding: 10px 28px;
+            border-radius: 4px;
+            font-size: 18px;
+        }
+
+        .sign-in-button {
+            color: var(--accent);
+            background-color: var(--background);
+            border-color: black 5px;
+
+        }
+
+        .sign-up-button {
+            background-color: var(--accent);
+            color: var(--white);
+            border: none;
+        }
+
+    }
+
+}
+
+
+
+
+.hero {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 100px;
+
+    .hero-image {
+        img {
+            width: 700px;
+        }
+    }
+
+    .hero-content {
+        width: 550px;
+    }
+
+    .tag-line {
+        color: var(--accent);
+        font-size: 18px;
+        font-weight: bold;
+        letter-spacing: 2px;
+    }
+
+    h1 {
+        font-size: 60px;
+        color: var(--primary);
+        margin: 20px 0;
+        line-height: 1.1;
+
+        span {
+            color: #2563a6;
+        }
+    }
+
+    .hero-description {
+        color: var(--text-secondary);
+        font-size: 18px;
+        line-height: 1.6;
+
+    }
+
+    .search-box {
+        background: var(--white);
+        display: flex;
+        align-items: end;
+        gap: 15px;
+        padding: 20px;
+        margin-top: 35px;
+        border-radius: 15px;
+        box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
+
+        .search-field {
+
+            input {
+                width: 100%;
+                box-sizing: border-box;
+                padding: 14px;
+                border: 1px solid #e2e8f0;
+                border-radius: 8px;
+                font-size: 14px;
+
+                :focus {
+                    outline: none;
+                    border-color: #2563a6;
+                }
+            }
+
+            label {
+                display: block;
+                font-size: 13px;
+                font-weight: bold;
+                color: var(--text-primary);
+                margin-bottom: 8px;
+            }
+
+
+        }
+
+        .search-btn {
+            height: 50px;
+            padding: 10px 28px;
+            border: none;
+            border-radius: 8px;
+            background: var(--accent);
+            color: var(--white);
+            font-size: 15px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+    }
+
+
+}
+
+
+.popular-services {
+    padding: 0 100px;
+}
+
+.service-title {
+    padding-bottom: 20px;
+
+    h2 {
+        color: var(--primary);
+        font-size: 32px;
+    }
+
+    p {
+        color: var(--text-secondary);
+        font-size: 18px;
+        line-height: 1.8;
+    }
+}
+
+.service-cards {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 18px;
+}
+
+
+.electrician-card,
+.plumber-card,
+.bike-card,
+.ac-card,
+.cleaning-card,
+.carpenter-card,
+.more-card {
+
+    height: 150px;
+    padding: 20px;
+    border-radius: 18px;
+    border: 1px solid hsl(214, 32%, 91%);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+
+}
+
+.electrician-card:hover,
+.plumber-card:hover,
+.bike-card:hover,
+.ac-card:hover,
+.cleaning-card:hover,
+.carpenter-card:hover,
+.more-card:hover {
+
+    transform: translateY(-3px);
+    transition: 0.2s ease;
+    box-shadow: 0 8px 20px rgba(20, 50, 90, 0.08);
+}
+
+
+.electrician-card {
+    background: hsl(40, 100%, 97%);
+}
+
+.plumber-card {
+    background: hsl(215, 100%, 98%);
+}
+
+.bike-card {
+    background: hsl(355, 100%, 98%);
+}
+
+.ac-card {
+    background: hsl(156, 56%, 96%);
+}
+
+.cleaning-card {
+    background: hsl(258, 100%, 98%);
+}
+
+.carpenter-card {
+    background: hsl(34, 100%, 97%);
+}
+
+.more-card {
+    background: hsl(216, 33%, 97%);
+}
+
+.service-icon {
+
+    width: 48px;
+    height: 48px;
+
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-size: 22px;
+}
+
+
+.electrician-card .service-icon {
+    background: hsl(44, 100%, 89%);
+    color: hsl(38, 92%, 50%);
+}
+
+.plumber-card .service-icon {
+    background: hsl(216, 100%, 93%);
+    color: hsl(216, 81%, 48%);
+}
+
+.bike-card .service-icon {
+    background: hsl(352, 100%, 94%);
+    color: hsl(347, 77%, 50%);
+}
+
+.ac-card .service-icon {
+    background: hsl(153, 55%, 90%);
+    color: hsl(161, 94%, 30%);
+}
+
+.cleaning-card .service-icon {
+    background: hsl(261, 100%, 93%);
+    color: hsl(262, 83%, 58%);
+}
+
+.carpenter-card .service-icon {
+    background: hsl(35, 73%, 88%);
+    color: hsl(23, 83%, 31%);
+}
+
+.more-card .service-icon {
+    background: hsl(216, 24%, 92%);
+    color: hsl(215, 19%, 35%);
+}
+
+.service-name {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h3 {
+        font-size: 17px;
+        color: #102a56;
+    }
+}
+
+.service-name button {
+    width: 32px;
+    height: 32px;
+    border: none;
+    border-radius: 50%;
+    background: white;
+    color: hsl(216, 81%, 48%);
+    font-size: 16px;
+    cursor: pointer;
+}
