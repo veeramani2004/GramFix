@@ -15,10 +15,8 @@
     --text-secondary: hsl(215, 16%, 47%);
 }
 
-
-
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .nav-bar {
@@ -44,12 +42,10 @@ body {
             text-decoration: none;
             font-size: 20px;
             font-weight: 500;
-
         }
 
         li a:hover {
             color: var(--accent);
-
         }
     }
 
@@ -58,7 +54,6 @@ body {
         gap: 30px;
 
         button {
-
             padding: 10px 28px;
             border-radius: 4px;
             font-size: 18px;
@@ -68,7 +63,6 @@ body {
             color: var(--accent);
             background-color: var(--background);
             border-color: black 5px;
-
         }
 
         .sign-up-button {
@@ -76,16 +70,10 @@ body {
             color: var(--white);
             border: none;
         }
-
     }
-
 }
 
-
-
-
 .hero {
-
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -115,7 +103,7 @@ body {
         line-height: 1.1;
 
         span {
-            color: #2563a6;
+            color: hsl(211, 64%, 40%);
         }
     }
 
@@ -123,7 +111,6 @@ body {
         color: var(--text-secondary);
         font-size: 18px;
         line-height: 1.6;
-
     }
 
     .search-box {
@@ -137,7 +124,6 @@ body {
         box-shadow: 0 5px 20px rgba(0, 0, 0, 0.25);
 
         .search-field {
-
             input {
                 width: 100%;
                 box-sizing: border-box;
@@ -159,8 +145,6 @@ body {
                 color: var(--text-primary);
                 margin-bottom: 8px;
             }
-
-
         }
 
         .search-btn {
@@ -174,12 +158,8 @@ body {
             font-weight: bold;
             cursor: pointer;
         }
-
     }
-
-
 }
-
 
 .popular-services {
     padding: 0 100px;
@@ -206,7 +186,6 @@ body {
     gap: 18px;
 }
 
-
 .electrician-card,
 .plumber-card,
 .bike-card,
@@ -214,7 +193,6 @@ body {
 .cleaning-card,
 .carpenter-card,
 .more-card {
-
     height: 150px;
     padding: 20px;
     border-radius: 18px;
@@ -223,7 +201,6 @@ body {
     flex-direction: column;
     justify-content: space-between;
     box-sizing: border-box;
-
 }
 
 .electrician-card:hover,
@@ -233,43 +210,22 @@ body {
 .cleaning-card:hover,
 .carpenter-card:hover,
 .more-card:hover {
-
     transform: translateY(-3px);
     transition: 0.2s ease;
     box-shadow: 0 8px 20px rgba(20, 50, 90, 0.08);
 }
 
-
-.electrician-card {
-    background: hsl(40, 100%, 97%);
-}
-
-.plumber-card {
-    background: hsl(215, 100%, 98%);
-}
-
-.bike-card {
-    background: hsl(355, 100%, 98%);
-}
-
-.ac-card {
-    background: hsl(156, 56%, 96%);
-}
-
-.cleaning-card {
-    background: hsl(258, 100%, 98%);
-}
-
-.carpenter-card {
-    background: hsl(34, 100%, 97%);
-}
-
+.electrician-card,
+.plumber-card,
+.bike-card,
+.ac-card,
+.cleaning-card,
+.carpenter-card,
 .more-card {
-    background: hsl(216, 33%, 97%);
+    background: hsl(211, 100%, 97%);
 }
 
 .service-icon {
-
     width: 48px;
     height: 48px;
 
@@ -282,40 +238,14 @@ body {
     font-size: 22px;
 }
 
-
-.electrician-card .service-icon {
-    background: hsl(44, 100%, 89%);
-    color: hsl(38, 92%, 50%);
-}
-
-.plumber-card .service-icon {
-    background: hsl(216, 100%, 93%);
-    color: hsl(216, 81%, 48%);
-}
-
-.bike-card .service-icon {
-    background: hsl(352, 100%, 94%);
-    color: hsl(347, 77%, 50%);
-}
-
-.ac-card .service-icon {
-    background: hsl(153, 55%, 90%);
-    color: hsl(161, 94%, 30%);
-}
-
-.cleaning-card .service-icon {
-    background: hsl(261, 100%, 93%);
-    color: hsl(262, 83%, 58%);
-}
-
-.carpenter-card .service-icon {
-    background: hsl(35, 73%, 88%);
-    color: hsl(23, 83%, 31%);
-}
-
+.electrician-card .service-icon,
+.plumber-card .service-icon,
+.bike-card .service-icon,
+.ac-card .service-icon,
+.cleaning-card .service-icon,
+.carpenter-card .service-icon,
 .more-card .service-icon {
-    background: hsl(216, 24%, 92%);
-    color: hsl(215, 19%, 35%);
+    color: var(--primary);
 }
 
 .service-name {
