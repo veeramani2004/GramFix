@@ -143,10 +143,9 @@ img {
 }
 
 .provider-hero {
-    display: grid;
-    grid-template-columns: 1.05fr 0.95fr;
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    gap: 35px;
     min-height: 470px;
     padding: 0px 110px;
     overflow: hidden;

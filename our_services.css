@@ -352,3 +352,17 @@ body {
 .service-card.more {
     background: #ffffff;
 }
+
+
+.service-card-link {
+    display: block;
+    height: 100%;
+    color: inherit;
+    text-decoration: none;
+}
+
+.service-card-link .card-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

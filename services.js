@@ -76,31 +76,35 @@ const services = [
 const serviceCards = document.getElementById("serviceCards");
 
 function displayServices() {
-    services.forEach(function (service) {
-        const card = document.createElement("div");
+  services.forEach(function (service) {
+    const card = document.createElement("div");
 
-        card.classList.add("service-card", service.className);
+    card.classList.add("service-card", service.className);
 
-        card.innerHTML = `
-            <div class="card-image">
-                <img src="${service.image}" alt="${service.name}">
-            </div>
+    card.innerHTML = /* html */ `
+      <a
+        href="service_details.html?category=${service.className}"
+        class="service-card-link"
+        aria-label="View ${service.name} services"
+      >
+        <div class="card-image">
+          <img src="${service.image}" alt="${service.name}">
+        </div>
 
-            <div class="card-content">
-                <h3>${service.name}</h3>
-                <p>${service.description}</p>
-            </div>
+        <div class="card-content">
+          <h3>${service.name}</h3>
+          <p>${service.description}</p>
+        </div>
 
-            <button
-                class="card-arrow"
-                type="button"
-                aria-label="View ${service.name}">
-                <i class="fa-solid fa-arrow-right"></i>
-            </button>
-        `;
+        <span class="card-arrow">
+          <i class="fa-solid fa-arrow-right"></i>
+        </span>
+      </a>
+    `;
 
-        serviceCards.appendChild(card);
-    });
+    serviceCards.appendChild(card);
+  });
 }
 
 displayServices();
+
