@@ -1,9 +1,4 @@
-/* =========================================
-   GRAMFIX SERVICE CATEGORY DATA
-========================================= */
-
 const serviceCategories = {
-
     electrician: {
         name: "Electrician",
         title: "Electrician Services",
@@ -17,53 +12,54 @@ const serviceCategories = {
                 name: "Light Installation",
                 description: "Install lights, LED lights and chandeliers.",
                 price: 299,
-                image: "assets/services/light-installation.jpg"
+                image: "assets/services/light-installation.jpg",
             },
             {
                 name: "Fan Installation",
-                description: "Install ceiling fans, wall fans and exhaust fans.",
+                description:
+                    "Install ceiling fans, wall fans and exhaust fans.",
                 price: 299,
-                image: "assets/services/fan-installation.jpg"
+                image: "assets/services/fan-installation.jpg",
             },
             {
                 name: "Switchboard Repair",
                 description: "Repair electrical switchboards and sockets.",
                 price: 349,
-                image: "assets/services/switchboard-repair.jpg"
+                image: "assets/services/switchboard-repair.jpg",
             },
             {
                 name: "House Wiring",
-                description: "Electrical wiring for new houses and renovations.",
+                description:
+                    "Electrical wiring for new houses and renovations.",
                 price: 999,
-                image: "assets/services/house-wiring.jpg"
+                image: "assets/services/house-wiring.jpg",
             },
             {
                 name: "MCB / DB Repair",
                 description: "Repair MCBs and electrical distribution boards.",
                 price: 349,
-                image: "assets/services/mcb-repair.jpg"
+                image: "assets/services/mcb-repair.jpg",
             },
             {
                 name: "Security Camera Installation",
                 description: "Install CCTV cameras for homes and offices.",
                 price: 499,
-                image: "assets/services/security-camera.jpg"
+                image: "assets/services/security-camera.jpg",
             },
             {
                 name: "Inverter Installation",
                 description: "Install inverter and battery backup systems.",
                 price: 499,
-                image: "assets/services/inverter-installation.jpg"
+                image: "assets/services/inverter-installation.jpg",
             },
             {
                 name: "Electrical Troubleshooting",
                 description: "Identify electrical faults and power problems.",
                 price: 299,
-                image: "assets/services/electrician.jpg"
-            }
-        ]
+                image: "assets/services/electrician.jpg",
+            },
+        ],
     },
-
 
     plumber: {
         name: "Plumber",
@@ -78,23 +74,22 @@ const serviceCategories = {
                 name: "Tap Repair",
                 description: "Repair leaking taps and faucets.",
                 price: 199,
-                image: "assets/services/tap-repair.jpg"
+                image: "assets/services/tap-repair.jpg",
             },
             {
                 name: "Pipe Repair",
                 description: "Repair leaking and damaged water pipes.",
                 price: 299,
-                image: "assets/services/pipe-repair.jpg"
+                image: "assets/services/pipe-repair.jpg",
             },
             {
                 name: "Drain Cleaning",
                 description: "Clear blocked drains and pipes.",
                 price: 299,
-                image: "assets/services/drain-cleaning.jpg"
-            }
-        ]
+                image: "assets/services/drain-cleaning.jpg",
+            },
+        ],
     },
-
 
     bike: {
         name: "Bike Repair",
@@ -109,17 +104,16 @@ const serviceCategories = {
                 name: "Bike Servicing",
                 description: "Basic servicing and general bike maintenance.",
                 price: 499,
-                image: "assets/services/bike-servicing.jpg"
+                image: "assets/services/bike-servicing.jpg",
             },
             {
                 name: "Brake Repair",
                 description: "Check and repair common brake problems.",
                 price: 299,
-                image: "assets/services/brake-repair.jpg"
-            }
-        ]
+                image: "assets/services/brake-repair.jpg",
+            },
+        ],
     },
-
 
     ac: {
         name: "AC Repair",
@@ -134,23 +128,22 @@ const serviceCategories = {
                 name: "AC Repair",
                 description: "Inspect and diagnose common AC problems.",
                 price: 399,
-                image: "assets/services/ac-repair.jpg"
+                image: "assets/services/ac-repair.jpg",
             },
             {
                 name: "AC Installation",
                 description: "Install an air conditioner at your property.",
                 price: 1499,
-                image: "assets/services/ac-installation.jpg"
+                image: "assets/services/ac-installation.jpg",
             },
             {
                 name: "AC Cleaning",
                 description: "Clean AC filters and accessible components.",
                 price: 499,
-                image: "assets/services/ac-cleaning.jpg"
-            }
-        ]
+                image: "assets/services/ac-cleaning.jpg",
+            },
+        ],
     },
-
 
     carpenter: {
         name: "Carpenter",
@@ -165,17 +158,16 @@ const serviceCategories = {
                 name: "Furniture Repair",
                 description: "Repair common furniture damage.",
                 price: 299,
-                image: "assets/services/furniture-repair.jpg"
+                image: "assets/services/furniture-repair.jpg",
             },
             {
                 name: "Door Repair",
                 description: "Fix common door and hinge problems.",
                 price: 249,
-                image: "assets/services/door-repair.jpg"
-            }
-        ]
+                image: "assets/services/door-repair.jpg",
+            },
+        ],
     },
-
 
     cleaning: {
         name: "Cleaning",
@@ -190,17 +182,16 @@ const serviceCategories = {
                 name: "Home Cleaning",
                 description: "General cleaning for your home.",
                 price: 799,
-                image: "assets/services/home-cleaning.jpg"
+                image: "assets/services/home-cleaning.jpg",
             },
             {
                 name: "Bathroom Cleaning",
                 description: "Clean bathroom surfaces and fittings.",
                 price: 299,
-                image: "assets/services/bathroom-cleaning.jpg"
-            }
-        ]
+                image: "assets/services/bathroom-cleaning.jpg",
+            },
+        ],
     },
-
 
     appliance: {
         name: "Appliance Repair",
@@ -215,17 +206,16 @@ const serviceCategories = {
                 name: "Washing Machine Repair",
                 description: "Diagnose common washing machine faults.",
                 price: 399,
-                image: "assets/services/washing-machine.jpg"
+                image: "assets/services/washing-machine.jpg",
             },
             {
                 name: "Refrigerator Repair",
                 description: "Inspect common refrigerator problems.",
                 price: 399,
-                image: "assets/services/refrigerator.jpg"
-            }
-        ]
+                image: "assets/services/refrigerator.jpg",
+            },
+        ],
     },
-
 
     mobile: {
         name: "Mobile Repair",
@@ -240,17 +230,15 @@ const serviceCategories = {
                 name: "Screen Repair",
                 description: "Get your phone screen inspected for repair.",
                 price: 499,
-                image: "assets/services/screen-repair.jpg"
-            }
-        ]
+                image: "assets/services/screen-repair.jpg",
+            },
+        ],
     },
-
 
     waterpump: {
         name: "Water Pump Repair",
         title: "Water Pump Repair Services",
-        description:
-            "Find help with common water pump and motor problems.",
+        description: "Find help with common water pump and motor problems.",
 
         image: "assets/services/water-pump.jpg",
 
@@ -259,11 +247,10 @@ const serviceCategories = {
                 name: "Pump Inspection and Repair",
                 description: "Inspect common water pump problems.",
                 price: 399,
-                image: "assets/services/pump-repair.jpg"
-            }
-        ]
+                image: "assets/services/pump-repair.jpg",
+            },
+        ],
     },
-
 
     farm: {
         name: "Farm Equipment Repair",
@@ -278,11 +265,10 @@ const serviceCategories = {
                 name: "Tractor Repair",
                 description: "Arrange inspection for common tractor problems.",
                 price: 599,
-                image: "assets/services/tractor-repair.jpg"
-            }
-        ]
+                image: "assets/services/tractor-repair.jpg",
+            },
+        ],
     },
-
 
     home: {
         name: "Home Repair",
@@ -297,20 +283,11 @@ const serviceCategories = {
                 name: "General Home Repair",
                 description: "Get help with common household repairs.",
                 price: 299,
-                image: "assets/services/general-repair.jpg"
-            }
-        ]
-    }
-
+                image: "assets/services/general-repair.jpg",
+            },
+        ],
+    },
 };
-
-
-/* =========================================
-   GET CATEGORY FROM URL
-========================================= */
-
-// Example URL:
-// service_details.html?category=electrician
 
 const urlParams = new URLSearchParams(window.location.search);
 
@@ -320,19 +297,12 @@ const requestedCategory = (
 
 const category = serviceCategories[requestedCategory];
 
-
-/* =========================================
-   PAGE ELEMENTS
-========================================= */
-
 const categoryTitle = document.getElementById("category-title");
-const categoryDescription =
-    document.getElementById("category-description");
+const categoryDescription = document.getElementById("category-description");
 
 const categoryImage = document.getElementById("category-image");
 
-const breadcrumbCategory =
-    document.getElementById("breadcrumb-category");
+const breadcrumbCategory = document.getElementById("breadcrumb-category");
 
 const servicesGrid = document.getElementById("services-grid");
 
@@ -340,15 +310,8 @@ const serviceCount = document.getElementById("service-count");
 
 const emptyMessage = document.getElementById("empty-message");
 
-
-/* =========================================
-   DISPLAY CATEGORY
-========================================= */
-
 function displayCategory(selectedCategory) {
-
     if (!selectedCategory) {
-
         categoryTitle.textContent = "Category Not Found";
 
         categoryDescription.textContent =
@@ -367,14 +330,11 @@ function displayCategory(selectedCategory) {
         return;
     }
 
-    // Update hero content.
     categoryTitle.textContent = selectedCategory.title;
 
-    categoryDescription.textContent =
-        selectedCategory.description;
+    categoryDescription.textContent = selectedCategory.description;
 
-    breadcrumbCategory.textContent =
-        selectedCategory.name;
+    breadcrumbCategory.textContent = selectedCategory.name;
 
     categoryImage.src = selectedCategory.image;
 
@@ -382,20 +342,12 @@ function displayCategory(selectedCategory) {
 
     categoryImage.style.display = "block";
 
-    // Update page title in the browser tab.
     document.title = `${selectedCategory.title} | GramFix`;
 
-    // Generate service cards.
     displayServiceCards(selectedCategory.services);
 }
 
-
-/* =========================================
-   GENERATE SERVICE CARDS
-========================================= */
-
 function displayServiceCards(services) {
-
     servicesGrid.innerHTML = "";
 
     serviceCount.textContent = services.length;
@@ -403,7 +355,6 @@ function displayServiceCards(services) {
     emptyMessage.hidden = services.length !== 0;
 
     services.forEach((service) => {
-
         const card = document.createElement("article");
 
         card.className = "service-card";
@@ -447,24 +398,13 @@ function displayServiceCards(services) {
     });
 }
 
-
-/* =========================================
-   INITIALIZE PAGE
-========================================= */
-
 displayCategory(category);
-
-
-/* =========================================
-   BOOKING DIALOG
-========================================= */
 
 const bookingDialog = document.getElementById("booking-dialog");
 
 const bookingForm = document.getElementById("booking-form");
 
-const selectedServiceInput =
-    document.getElementById("selected-service");
+const selectedServiceInput = document.getElementById("selected-service");
 
 const bookingDate = document.getElementById("booking-date");
 
@@ -472,20 +412,13 @@ const bookingMessage = document.getElementById("booking-message");
 
 const closeDialogButton = document.getElementById("close-dialog");
 
-
-// Set the minimum date to today using local time.
 const now = new Date();
 
-const localDate = new Date(
-    now.getTime() - now.getTimezoneOffset() * 60000
-);
+const localDate = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
 
 bookingDate.min = localDate.toISOString().split("T")[0];
 
-
-// Use event delegation so generated buttons work.
 servicesGrid.addEventListener("click", (event) => {
-
     const button = event.target.closest(".book-button");
 
     if (!button || !category) {
@@ -499,28 +432,17 @@ servicesGrid.addEventListener("click", (event) => {
     bookingDialog.showModal();
 });
 
-
-// Close dialog button.
 closeDialogButton.addEventListener("click", () => {
-
     bookingDialog.close();
-
 });
 
-
-// Close dialog by clicking the backdrop.
 bookingDialog.addEventListener("click", (event) => {
-
     if (event.target === bookingDialog) {
         bookingDialog.close();
     }
-
 });
 
-
-// Handle booking form submission.
 bookingForm.addEventListener("submit", (event) => {
-
     event.preventDefault();
 
     if (!bookingForm.reportValidity()) {
@@ -531,5 +453,4 @@ bookingForm.addEventListener("submit", (event) => {
         "Form validated successfully. Online booking is not connected yet.";
 
     bookingMessage.style.color = "#16803c";
-
 });

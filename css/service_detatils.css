@@ -1,6 +1,3 @@
-/* =====================================
-   GRAMFIX THEME
-===================================== */
 
 :root {
     --primary: hsl(211, 67%, 21%);
@@ -13,10 +10,6 @@
     --text-secondary: hsl(215, 16%, 47%);
     --border: hsl(214, 32%, 91%);
 }
-
-/* =====================================
-   GENERAL
-===================================== */
 
 .service-hero *,
 .available-services *,
@@ -102,9 +95,6 @@ img {
     letter-spacing: 1.3px;
 }
 
-/* =====================================
-   HERO SECTION
-===================================== */
 
 .service-hero {
     width: min(1200px, 92%);
@@ -149,10 +139,6 @@ img {
     line-height: 1.7;
 }
 
-/* =====================================
-   TRUST FEATURES
-===================================== */
-
 .trust-features {
     display: flex;
     flex-wrap: wrap;
@@ -189,10 +175,6 @@ img {
     background: #e1efff;
 }
 
-/* =====================================
-   HERO IMAGE
-===================================== */
-
 .hero-image {
     height: 290px;
     overflow: hidden;
@@ -207,9 +189,6 @@ img {
     object-fit: cover;
 }
 
-/* =====================================
-   AVAILABLE SERVICES
-===================================== */
 
 .available-services {
     width: min(1200px, 92%);
@@ -255,9 +234,6 @@ img {
     font-weight: 800;
 }
 
-/* =====================================
-   SERVICE GRID
-===================================== */
 
 .services-grid {
     display: grid;
@@ -265,9 +241,6 @@ img {
     gap: 20px;
 }
 
-/* =====================================
-   SERVICE CARD
-===================================== */
 
 .service-card {
     min-width: 0;
@@ -361,9 +334,6 @@ img {
     border-color: #e88700;
 }
 
-/* =====================================
-   EMPTY MESSAGE
-===================================== */
 
 .empty-message {
     padding: 45px 20px;
@@ -389,9 +359,6 @@ img {
     color: var(--text-secondary);
 }
 
-/* =====================================
-   BOTTOM CTA
-===================================== */
 
 .service-cta {
     width: min(1200px, 92%);
@@ -422,9 +389,6 @@ img {
     flex-shrink: 0;
 }
 
-/* =====================================
-   BOOKING DIALOG
-===================================== */
 
 .booking-dialog {
     width: min(440px, 92%);
@@ -515,111 +479,4 @@ img {
     color: var(--primary);
     font-size: 13px;
     line-height: 1.5;
-}
-
-/* =====================================
-   TABLET
-===================================== */
-
-@media (max-width: 1000px) {
-    .service-hero {
-        grid-template-columns: 1fr 0.8fr;
-        gap: 22px;
-    }
-
-    .services-grid {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
-    }
-}
-
-/* =====================================
-   MOBILE
-===================================== */
-
-@media (max-width: 650px) {
-    .service-hero {
-        grid-template-columns: 1fr;
-        padding-top: 20px;
-        gap: 22px;
-    }
-
-    .breadcrumb {
-        margin-bottom: 18px;
-        font-size: 12px;
-    }
-
-    .hero-content h1 {
-        font-size: 32px;
-    }
-
-    .hero-content > p {
-        font-size: 14px;
-    }
-
-    .trust-features {
-        gap: 12px;
-    }
-
-    .trust-item {
-        font-size: 10px;
-    }
-
-    .trust-icon {
-        width: 36px;
-        height: 36px;
-    }
-
-    .hero-image {
-        height: 220px;
-    }
-
-    .services-heading {
-        align-items: start;
-    }
-
-    .services-heading h2 {
-        font-size: 25px;
-    }
-
-    .services-heading p {
-        font-size: 13px;
-    }
-
-    .service-count {
-        padding: 7px;
-        font-size: 11px;
-    }
-
-    .services-grid {
-        grid-template-columns: 1fr;
-        gap: 15px;
-    }
-
-    .card-image {
-        height: 190px;
-    }
-
-    .card-content p {
-        min-height: 0;
-    }
-
-    .card-bottom {
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-    }
-
-    .service-cta {
-        flex-direction: column;
-        align-items: stretch;
-        padding: 24px 20px;
-    }
-
-    .service-cta h2 {
-        font-size: 22px;
-    }
-
-    .booking-dialog {
-        padding: 20px;
-    }
 }
