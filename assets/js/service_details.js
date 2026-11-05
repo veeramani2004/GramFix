@@ -5,58 +5,58 @@ const serviceCategories = {
         description:
             "Get professional electrical services for your home, office and commercial spaces. Safe, reliable and affordable.",
 
-        image: "assets/services/electrician.jpg",
+        image: "../services/electrician.jpg",
 
         services: [
             {
                 name: "Light Installation",
                 description: "Install lights, LED lights and chandeliers.",
                 price: 299,
-                image: "assets/services/light-installation.jpg",
+                image: "../services/light-installation.jpg",
             },
             {
                 name: "Fan Installation",
                 description:
                     "Install ceiling fans, wall fans and exhaust fans.",
                 price: 299,
-                image: "assets/services/fan-installation.jpg",
+                image: "../services/fan-installation.jpg",
             },
             {
                 name: "Switchboard Repair",
                 description: "Repair electrical switchboards and sockets.",
                 price: 349,
-                image: "assets/services/switchboard-repair.jpg",
+                image: "../services/switchboard-repair.jpg",
             },
             {
                 name: "House Wiring",
                 description:
                     "Electrical wiring for new houses and renovations.",
                 price: 999,
-                image: "assets/services/house-wiring.jpg",
+                image: "../services/house-wiring.jpg",
             },
             {
                 name: "MCB / DB Repair",
                 description: "Repair MCBs and electrical distribution boards.",
                 price: 349,
-                image: "assets/services/mcb-repair.jpg",
+                image: "../services/mcb-repair.jpg",
             },
             {
                 name: "Security Camera Installation",
                 description: "Install CCTV cameras for homes and offices.",
                 price: 499,
-                image: "assets/services/security-camera.jpg",
+                image: "../services/security-camera.jpg",
             },
             {
                 name: "Inverter Installation",
                 description: "Install inverter and battery backup systems.",
                 price: 499,
-                image: "assets/services/inverter-installation.jpg",
+                image: "../services/inverter-installation.jpg",
             },
             {
                 name: "Electrical Troubleshooting",
                 description: "Identify electrical faults and power problems.",
                 price: 299,
-                image: "assets/services/electrician.jpg",
+                image: "../services/electrician.jpg",
             },
         ],
     },
@@ -448,9 +448,4 @@ bookingForm.addEventListener("submit", (event) => {
     if (!bookingForm.reportValidity()) {
         return;
     }
-
-    bookingMessage.textContent =
-        "Form validated successfully. Online booking is not connected yet.";
-
-    bookingMessage.style.color = "#16803c";
 });

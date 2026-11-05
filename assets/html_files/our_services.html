@@ -6,11 +6,17 @@
 
         <title>Our Services | GramFix</title>
 
-        <link rel="stylesheet" href="css/our_services.css" />
+        <link rel="stylesheet" href="../css/our_services.css" />
 
         <link
             rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
         />
     </head>
 
@@ -18,12 +24,12 @@
         <header class="site-header">
             <nav class="nav-bar page-width">
                 <a href="index.html" class="logo">
-                    <img src="assets/logo.png" alt="GramFix logo" />
+                    <img src="../logo.png" alt="GramFix logo" />
                 </a>
 
                 <ul class="nav-menu">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="/index.html">Home</a>
                     </li>
 
                     <li>
@@ -42,18 +48,8 @@
                 </ul>
 
                 <div class="user-menu">
-                    <a
-                        href="cart.html"
-                        class="cart-link"
-                        aria-label="Shopping cart"
-                    >
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-
-                    <a href="sign_in.html" class="sign-in-button"> Sign in </a>
-
-                    <a href="sign_up.html" class="sign-up-button">
-                        Try GramFix
+                    <a href="cart.html" class="view-button">
+                        <i class="fa-solid fa-clock-rotate-left"></i>
                     </a>
                 </div>
             </nav>
@@ -61,64 +57,38 @@
 
         <main>
             <section class="services-hero">
-                <div class="hero-background-circle circle-one"></div>
-                <div class="hero-background-circle circle-two"></div>
-
                 <div class="hero-container page-width">
                     <div class="hero-content">
                         <span class="eyebrow">OUR SERVICES</span>
-
                         <h1>
                             All Your Local Services
                             <span>in One Place.</span>
                         </h1>
-
                         <p>
                             From home repairs to vehicle maintenance, find
                             skilled professionals near you for your everyday
                             needs.
                         </p>
+                        <form class="service-search" id="serviceSearchForm">
+                            <div class="search-field service-search-field">
+                                <label for="serviceSearch">
+                                    What service do you need?
+                                </label>
+                                <div class="input-wrapper">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                    <input
+                                        type="text"
+                                        id="serviceSearch"
+                                        placeholder="Electrician, plumber, mechanic..."
+                                        autocomplete="off"
+                                    />
+                                </div>
+                            </div>
+                        </form>
                     </div>
-
-                    <form class="service-search" id="serviceSearchForm">
-                        <div class="search-field service-search-field">
-                            <label for="serviceSearch">
-                                What service do you need?
-                            </label>
-
-                            <div class="input-wrapper">
-                                <i class="fa-solid fa-magnifying-glass"></i>
-
-                                <input
-                                    type="text"
-                                    id="serviceSearch"
-                                    placeholder="Electrician, plumber, mechanic..."
-                                    autocomplete="off"
-                                />
-                            </div>
-                        </div>
-
-                        <div class="search-divider"></div>
-
-                        <div class="search-field location-search-field">
-                            <label for="locationSearch"> Location </label>
-
-                            <div class="input-wrapper">
-                                <i class="fa-solid fa-location-dot"></i>
-
-                                <input
-                                    type="text"
-                                    id="locationSearch"
-                                    placeholder="Enter your location"
-                                    autocomplete="off"
-                                />
-                            </div>
-                        </div>
-
-                        <button type="submit" class="search-button">
-                            Search
-                        </button>
-                    </form>
+                    <div class="services-hero-img">
+                        <img src="../home_page_img.png" alt="" />
+                    </div>
                 </div>
             </section>
 
@@ -132,10 +102,6 @@
                             vehicle, business, and everyday needs.
                         </p>
                     </div>
-
-                    <span class="service-total" id="serviceCount">
-                        12 Services
-                    </span>
                 </div>
 
                 <div class="all-service-cards" id="serviceCards"></div>
@@ -162,7 +128,7 @@
             <div class="footer-main page-width">
                 <div class="footer-brand">
                     <a href="index.html" class="footer-logo">
-                        <img src="assets/logo.png" alt="GramFix logo" />
+                        <img src="../logo.png" alt="GramFix logo" />
                     </a>
 
                     <p>
@@ -249,6 +215,6 @@
             </div>
         </footer>
 
-        <script src="js/services.js"></script>
+        <script src="../js/services.js"></script>
     </body>
 </html>

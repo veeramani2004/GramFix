@@ -4,13 +4,19 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-        <title>GramFix | Trusted Services Near You</title>
+        <title>GramFix</title>
 
-        <link rel="stylesheet" href="css/style.css" />
+        <link rel="stylesheet" href="assets\css\index.css" />
 
         <link
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css"
+        />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+            rel="stylesheet"
         />
     </head>
 
@@ -23,26 +29,15 @@
 
                 <ul class="nav-menu">
                     <li><a href="index.html" class="active">Home</a></li>
-                    <li><a href="our_services.html">Our Services</a></li>
-                    <li><a href="how_it_works.html">How It Works</a></li>
-                    <li><a href="for_providers.html">For Providers</a></li>
+                    <li><a href="assets\html_files\our_services.html">Our Services</a></li>
+                    <li><a href="assets\html_files\how_it_works.html">How It Works</a></li>
+                    <li><a href="assets\html_files\for_poviders.html">For Providers</a></li>
                 </ul>
 
                 <div class="user-menu">
-                    <a
-                        href="cart.html"
-                        class="cart-button"
-                        aria-label="Shopping cart"
-                        title="Shopping cart"
-                    >
-                        <i class="fa-solid fa-cart-shopping"></i>
-                    </a>
-
-                    <a href="sign_in.html" class="sign-in-button"> Sign in </a>
-
-                    <a href="sign_up.html" class="try-gramfix-button">
-                        Try GramFix
-                    </a>
+                    <a href="view_history.html" class="view-button"
+                        ><i class="fa-solid fa-clock-rotate-left"></i
+                    ></a>
                 </div>
             </nav>
         </header>
@@ -63,50 +58,6 @@
                             for your home, vehicle, business, and everyday
                             needs.
                         </p>
-
-                        <form
-                            class="search-box"
-                            action="our_services.html"
-                            method="get"
-                        >
-                            <div class="search-field">
-                                <label for="service">
-                                    What service do you need?
-                                </label>
-
-                                <div class="input-wrapper">
-                                    <i class="fa-solid fa-magnifying-glass"></i>
-
-                                    <input
-                                        type="text"
-                                        id="service"
-                                        name="service"
-                                        placeholder="Electrician, plumber, mechanic..."
-                                    />
-                                </div>
-                            </div>
-
-                            <div class="search-divider"></div>
-
-                            <div class="search-field">
-                                <label for="location"> Location </label>
-
-                                <div class="input-wrapper">
-                                    <i class="fa-solid fa-location-dot"></i>
-
-                                    <input
-                                        type="text"
-                                        id="location"
-                                        name="location"
-                                        placeholder="Enter your location"
-                                    />
-                                </div>
-                            </div>
-
-                            <button type="submit" class="search-btn">
-                                Search
-                            </button>
-                        </form>
                     </div>
 
                     <div class="hero-image">
@@ -141,10 +92,13 @@
                             href="service_details.html?category=electrician"
                             class="service-card"
                         >
-                            <div class="service-icon">
-                                <i class="fa-solid fa-bolt"></i>
+                            <div class="service-img">
+                                <img
+                                    src="assets/electrician.jpg"
+                                    alt="Electrician image"
+                                    class="service-img"
+                                />
                             </div>
-
                             <div class="service-name">
                                 <h3>Electrician</h3>
 
@@ -158,8 +112,12 @@
                             href="service_details.html?category=plumber"
                             class="service-card"
                         >
-                            <div class="service-icon">
-                                <i class="fa-solid fa-faucet"></i>
+                            <div class="service-img">
+                                <img
+                                    src="assets/plumber.jpg"
+                                    alt="Electrician image"
+                                    class="service-img"
+                                />
                             </div>
 
                             <div class="service-name">
@@ -175,8 +133,12 @@
                             href="service_details.html?category=bike"
                             class="service-card"
                         >
-                            <div class="service-icon">
-                                <i class="fa-solid fa-motorcycle"></i>
+                            <div class="service-img">
+                                <img
+                                    src="assets/bike-repair.jpg"
+                                    alt="Electrician image"
+                                    class="service-img"
+                                />
                             </div>
 
                             <div class="service-name">
@@ -192,8 +154,12 @@
                             href="service_details.html?category=ac"
                             class="service-card"
                         >
-                            <div class="service-icon">
-                                <i class="fa-solid fa-snowflake"></i>
+                            <div class="service-img">
+                                <img
+                                    src="assets/ac-repair.jpg"
+                                    alt="Electrician image"
+                                    class="service-img"
+                                />
                             </div>
 
                             <div class="service-name">
@@ -209,8 +175,12 @@
                             href="service_details.html?category=cleaning"
                             class="service-card"
                         >
-                            <div class="service-icon">
-                                <i class="fa-solid fa-broom"></i>
+                            <div class="service-img">
+                                <img
+                                    src="assets/cleaning.jpg"
+                                    alt="Electrician image"
+                                    class="service-img"
+                                />
                             </div>
 
                             <div class="service-name">
@@ -226,8 +196,12 @@
                             href="service_details.html?category=carpenter"
                             class="service-card"
                         >
-                            <div class="service-icon">
-                                <i class="fa-solid fa-hammer"></i>
+                            <div class="service-img">
+                                <img
+                                    src="assets/carpenter.jpg"
+                                    alt="Electrician image"
+                                    class="service-img"
+                                />
                             </div>
 
                             <div class="service-name">
@@ -239,13 +213,20 @@
                             </div>
                         </a>
 
-                        <a href="our_services.html" class="service-card">
-                            <div class="service-icon">
-                                <i class="fa-solid fa-grip"></i>
+                        <a
+                            href="service_details.html?category=farm"
+                            class="service-card"
+                        >
+                            <div class="service-img">
+                                <img
+                                    src="assets/farm-services.jpg"
+                                    alt="Electrician image"
+                                    class="service-img"
+                                />
                             </div>
 
                             <div class="service-name">
-                                <h3>More Services</h3>
+                                <h3>Form Services</h3>
 
                                 <span class="card-arrow">
                                     <i class="fa-solid fa-arrow-right"></i>
@@ -361,7 +342,7 @@
                         </span>
                     </p>
 
-                    <a href="for_providers.html" class="footer-cta">
+                    <a href="assets\css\for_poviders.css" class="footer-cta">
                         Join as a Provider
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>

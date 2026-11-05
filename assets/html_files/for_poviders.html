@@ -8,25 +8,31 @@
             rel="stylesheet"
             href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
         />
-        <link rel="stylesheet" href="css\for_poviders.css" />
+        <link rel="stylesheet" href="..\css\for_poviders.css" />
     </head>
 
     <body>
         <header class="site-header">
-            <nav class="nav-bar">
-                <div class="logo">
-                    <img src="assets/logo.png" alt="logo image" />
-                </div>
+            <nav class="nav-bar page-width">
+                <a href="/index.html" class="logo">
+                    <img src="../logo.png" alt="GramFix Logo" />
+                </a>
+
                 <ul class="nav-menu">
-                    <li><a href="index.html" class="active">Home</a></li>
+                    <li><a href="/index.html">Home</a></li>
                     <li><a href="our_services.html">Our Services</a></li>
-                    <li><a href="how_it_works.html">How It Works</a></li>
-                    <li><a href="for_poviders.html">For Providers </a></li>
+                    <li>
+                        <a href="how_it_works.html" 
+                            >How It Works</a
+                        >
+                    </li>
+                    <li><a href="for_poviders.html" class="active">For Providers</a></li>
                 </ul>
 
                 <div class="user-menu">
-                    <button class="sign-in-button">Sign in</button>
-                    <button class="sign-up-button">Sign up</button>
+                    <a href="view_history.html" class="view-button"
+                        ><i class="fa-solid fa-clock-rotate-left"></i
+                    ></a>
                 </div>
             </nav>
         </header>
@@ -51,37 +57,10 @@
                         <i class="fa-solid fa-arrow-right"></i>
                     </a>
 
-                    <div class="hero-highlights">
-                        <div class="highlight-item">
-                            <span class="highlight-icon orange-icon">
-                                <i class="fa-solid fa-users"></i>
-                            </span>
-                            <span>More<br />Customers</span>
-                        </div>
-
-                        <div class="highlight-item">
-                            <span class="highlight-icon blue-icon">
-                                <i class="fa-regular fa-clock"></i>
-                            </span>
-                            <span>Flexible<br />Work</span>
-                        </div>
-
-                        <div class="highlight-item">
-                            <span class="highlight-icon orange-icon">
-                                <i class="fa-solid fa-location-dot"></i>
-                            </span>
-                            <span>Service in<br />Your Area</span>
-                        </div>
-
-                        <div class="highlight-item">
-                            <span class="highlight-icon blue-icon">
-                                <i class="fa-solid fa-shield-halved"></i>
-                            </span>
-                            <span>Build Your<br />Reputation</span>
-                        </div>
-                    </div>
                 </div>
-                <div class="for-providers-img"><img src="assets\for-providers.jpeg" /></div>
+                <div class="for-providers-img">
+                    <img src="..\for-providers.jpeg" />
+                </div>
             </section>
 
             <section class="benefits-section section-container">
@@ -166,7 +145,6 @@
 
                     <div class="steps-grid">
                         <article class="step-card">
-                            <span class="step-number orange-number">01</span>
 
                             <div class="step-icon orange-icon">
                                 <i class="fa-regular fa-id-card"></i>
@@ -181,7 +159,6 @@
                         </article>
 
                         <article class="step-card">
-                            <span class="step-number blue-number">02</span>
 
                             <div class="step-icon blue-icon">
                                 <i class="fa-solid fa-list-check"></i>
@@ -196,7 +173,6 @@
                         </article>
 
                         <article class="step-card">
-                            <span class="step-number orange-number">03</span>
 
                             <div class="step-icon orange-icon">
                                 <i class="fa-regular fa-bell"></i>
@@ -211,7 +187,6 @@
                         </article>
 
                         <article class="step-card">
-                            <span class="step-number blue-number">04</span>
 
                             <div class="step-icon blue-icon">
                                 <i class="fa-solid fa-circle-check"></i>
@@ -313,8 +288,130 @@
             </section>
         </main>
 
-        <footer class="site-footer">
-            <p>© 2026 GramFix. Connecting local skills with local needs.</p>
+        <footer class="footer">
+            <div class="footer-container page-width">
+                <div class="footer-brand">
+                    <a href="/index.html" class="footer-logo">
+                        <img src="../logo.png" alt="GramFix Logo" />
+                    </a>
+
+                    <p>
+                        Your trusted partner for everyday services. Find skilled
+                        professionals for your home, repairs, and maintenance
+                        with GramFix.
+                    </p>
+
+                    <div class="footer-social">
+                        <a href="#" aria-label="Facebook">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+
+                        <a href="#" aria-label="Instagram">
+                            <i class="fa-brands fa-instagram"></i>
+                        </a>
+
+                        <a href="#" aria-label="LinkedIn">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+
+                        <a href="#" aria-label="YouTube">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="our_services.html">Our Services</a></li>
+                        <li><a href="how_it_works.html">How It Works</a></li>
+                        <li><a href="for_providers.html">For Providers</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-column">
+                    <h3>Popular Services</h3>
+
+                    <ul>
+                        <li>
+                            <a href="service_details.html?category=electrician">
+                                Electrician
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="service_details.html?category=plumber">
+                                Plumbing
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="service_details.html?category=bike">
+                                Bike Repair
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="service_details.html?category=ac">
+                                AC Repair
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="service_details.html?category=cleaning">
+                                Cleaning
+                            </a>
+                        </li>
+
+                        <li>
+                            <a href="service_details.html?category=carpenter">
+                                Carpentry
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="footer-column footer-contact">
+                    <h3>Contact Us</h3>
+
+                    <p>
+                        <i class="fa-regular fa-envelope"></i>
+
+                        <a href="mailto:support@gramfix.com">
+                            support@gramfix.com
+                        </a>
+                    </p>
+
+                    <p>
+                        <i class="fa-solid fa-location-dot"></i>
+
+                        <span>
+                            Connecting you with local service professionals
+                        </span>
+                    </p>
+
+                    <a href="for_poviders.html" class="footer-cta">
+                        Join as a Provider
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-container page-width">
+                    <p>&copy; 2026 GramFix. All rights reserved.</p>
+
+                    <div class="footer-bottom-links">
+                        <a href="privacy_policy.html">Privacy Policy</a>
+
+                        <a href="terms_conditions.html">
+                            Terms &amp; Conditions
+                        </a>
+                    </div>
+                </div>
+            </div>
         </footer>
     </body>
 </html>
