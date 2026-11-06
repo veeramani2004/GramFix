@@ -203,12 +203,12 @@ img {
 
 .orange-icon {
     color: #ed7900;
-    background: #fff0d9;
+   
 }
 
 .blue-icon {
     color: #2879e8;
-    background: #e1efff;
+
 }
 
 .hero-image {
@@ -288,7 +288,6 @@ img {
 }
 
 .service-card:hover {
-    border-color: var(--accent);
     background: #fffaf2;
     transform: translateY(-3px);
 }
@@ -305,12 +304,8 @@ img {
     height: 100%;
     display: block;
     object-fit: cover;
-    transition: transform 0.25s ease;
 }
 
-.service-card:hover .card-image img {
-    transform: scale(1.03);
-}
 
 .card-content {
     display: flex;

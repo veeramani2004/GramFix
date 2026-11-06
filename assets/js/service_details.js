@@ -34,24 +34,24 @@ const serviceCategories = {
                 price: 999,
                 image: "../services/house-wiring.jpg",
             },
-            {
-                name: "MCB / DB Repair",
-                description: "Repair MCBs and electrical distribution boards.",
-                price: 349,
-                image: "../services/mcb-repair.jpg",
-            },
-            {
-                name: "Security Camera Installation",
-                description: "Install CCTV cameras for homes and offices.",
-                price: 499,
-                image: "../services/security-camera.jpg",
-            },
-            {
-                name: "Inverter Installation",
-                description: "Install inverter and battery backup systems.",
-                price: 499,
-                image: "../services/inverter-installation.jpg",
-            },
+            // {
+            //     name: "MCB / DB Repair",
+            //     description: "Repair MCBs and electrical distribution boards.",
+            //     price: 349,
+            //     image: "../services/mcb-repair.jpg",
+            // },
+            // {
+            //     name: "Security Camera Installation",
+            //     description: "Install CCTV cameras for homes and offices.",
+            //     price: 499,
+            //     image: "../services/security-camera.jpg",
+            // },
+            // {
+            //     name: "Inverter Installation",
+            //     description: "Install inverter and battery backup systems.",
+            //     price: 499,
+            //     image: "../services/inverter-installation.jpg",
+            // },
             {
                 name: "Electrical Troubleshooting",
                 description: "Identify electrical faults and power problems.",
@@ -67,26 +67,26 @@ const serviceCategories = {
         description:
             "Find reliable plumbing help for leaking taps, damaged pipes, drainage and other household plumbing needs.",
 
-        image: "assets/services/plumber.jpg",
+        image: "../plumber.jpg",
 
         services: [
             {
                 name: "Tap Repair",
                 description: "Repair leaking taps and faucets.",
                 price: 199,
-                image: "assets/services/tap-repair.jpg",
+                image: "../services/tap-repair.jpg",
             },
             {
                 name: "Pipe Repair",
                 description: "Repair leaking and damaged water pipes.",
                 price: 299,
-                image: "assets/services/pipe-repair.jpg",
+                image: "../services/pipe-repair.jpg",
             },
             {
                 name: "Drain Cleaning",
                 description: "Clear blocked drains and pipes.",
                 price: 299,
-                image: "assets/services/drain-cleaning.jpg",
+                image: "../services/drain-cleaning.jpg",
             },
         ],
     },
@@ -97,20 +97,20 @@ const serviceCategories = {
         description:
             "Get help with bike servicing, brake problems and everyday motorcycle repairs.",
 
-        image: "assets/services/bike-mechanic.jpg",
+        image: "../bike-repair.jpg",
 
         services: [
             {
                 name: "Bike Servicing",
                 description: "Basic servicing and general bike maintenance.",
                 price: 499,
-                image: "assets/services/bike-servicing.jpg",
+                image: "../services/bike-servicing.jpg",
             },
             {
                 name: "Brake Repair",
                 description: "Check and repair common brake problems.",
                 price: 299,
-                image: "assets/services/brake-repair.jpg",
+                image: "../services/brake-repair.jpg",
             },
         ],
     },
@@ -121,26 +121,26 @@ const serviceCategories = {
         description:
             "Find help with air-conditioner installation, cleaning and common cooling problems.",
 
-        image: "assets/services/ac-repair.jpg",
+        image: "../ac-repair.jpg",
 
         services: [
             {
                 name: "AC Repair",
                 description: "Inspect and diagnose common AC problems.",
                 price: 399,
-                image: "assets/services/ac-repair.jpg",
+                image: "../services/ac-repair.jpg",
             },
             {
                 name: "AC Installation",
                 description: "Install an air conditioner at your property.",
                 price: 1499,
-                image: "assets/services/ac-installation.jpg",
+                image: "../services/ac-installation.jpg",
             },
             {
                 name: "AC Cleaning",
                 description: "Clean AC filters and accessible components.",
                 price: 499,
-                image: "assets/services/ac-cleaning.jpg",
+                image: "../services/ac-cleaning.jpg",
             },
         ],
     },
@@ -175,20 +175,20 @@ const serviceCategories = {
         description:
             "Find cleaning professionals for everyday household cleaning needs.",
 
-        image: "assets/services/cleaning.jpg",
+        image: "../cleaning.jpg",
 
         services: [
             {
                 name: "Home Cleaning",
                 description: "General cleaning for your home.",
                 price: 799,
-                image: "assets/services/home-cleaning.jpg",
+                image: "../services/home-cleaning.jpg",
             },
             {
                 name: "Bathroom Cleaning",
                 description: "Clean bathroom surfaces and fittings.",
                 price: 299,
-                image: "assets/services/bathroom-cleaning.jpg",
+                image: "../services/bathroom-cleaning.jpg",
             },
         ],
     },
@@ -199,20 +199,20 @@ const serviceCategories = {
         description:
             "Find help diagnosing and repairing common household appliance problems.",
 
-        image: "assets/services/appliance-repair.jpg",
+        image: "../appliance-repair.jpg",
 
         services: [
             {
                 name: "Washing Machine Repair",
                 description: "Diagnose common washing machine faults.",
                 price: 399,
-                image: "assets/services/washing-machine.jpg",
+                image: "../services/washing-machine.jpg",
             },
             {
                 name: "Refrigerator Repair",
                 description: "Inspect common refrigerator problems.",
                 price: 399,
-                image: "assets/services/refrigerator.jpg",
+                image: "../services/refrigerator.jpg",
             },
         ],
     },
@@ -223,14 +223,14 @@ const serviceCategories = {
         description:
             "Find technicians for common smartphone repair and troubleshooting needs.",
 
-        image: "assets/services/mobile-repair.jpg",
+        image: "../mobile-repair.jpg",
 
         services: [
             {
                 name: "Screen Repair",
                 description: "Get your phone screen inspected for repair.",
                 price: 499,
-                image: "assets/services/screen-repair.jpg",
+                image: "../services/screen-repair.jpg",
             },
         ],
     },
@@ -240,14 +240,14 @@ const serviceCategories = {
         title: "Water Pump Repair Services",
         description: "Find help with common water pump and motor problems.",
 
-        image: "assets/services/water-pump.jpg",
+        image: "../water-pump.jpg",
 
         services: [
             {
                 name: "Pump Inspection and Repair",
                 description: "Inspect common water pump problems.",
                 price: 399,
-                image: "assets/services/pump-repair.jpg",
+                image: "../services/pump-repair.jpg",
             },
         ],
     },
@@ -258,14 +258,14 @@ const serviceCategories = {
         description:
             "Find local help with agricultural equipment maintenance and repairs.",
 
-        image: "assets/services/farm-services.jpg",
+        image: "../farm-services.jpg",
 
         services: [
             {
                 name: "Tractor Repair",
                 description: "Arrange inspection for common tractor problems.",
                 price: 599,
-                image: "assets/services/tractor-repair.jpg",
+                image: "../services/tractor-repair.jpg",
             },
         ],
     },
@@ -276,14 +276,14 @@ const serviceCategories = {
         description:
             "Find help with everyday home maintenance and minor repairs.",
 
-        image: "assets/services/home-repair.jpg",
+        image: "../home-repair.jpg",
 
         services: [
             {
                 name: "General Home Repair",
                 description: "Get help with common household repairs.",
                 price: 299,
-                image: "assets/services/general-repair.jpg",
+                image: "../services/general-repair.jpg",
             },
         ],
     },
@@ -333,8 +333,6 @@ function displayCategory(selectedCategory) {
     categoryTitle.textContent = selectedCategory.title;
 
     categoryDescription.textContent = selectedCategory.description;
-
-    breadcrumbCategory.textContent = selectedCategory.name;
 
     categoryImage.src = selectedCategory.image;
 
@@ -448,4 +446,12 @@ bookingForm.addEventListener("submit", (event) => {
     if (!bookingForm.reportValidity()) {
         return;
     }
+});
+
+bookingForm.addEventListener("submit", function (event) {
+    event.preventDefault();
+
+    bookingForm.reset();
+
+    bookingDialog.close();
 });
