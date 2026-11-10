@@ -70,6 +70,7 @@ a {
     justify-content: center;
     gap: 38px;
     list-style: none;
+    padding-right: 50px;
 }
 
 .nav-menu a {

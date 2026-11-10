@@ -58,6 +58,7 @@ html {
     justify-content: center;
     gap: 38px;
     list-style: none;
+    padding-right: 50px;
 }
 
 .nav-menu a {
@@ -353,7 +354,6 @@ img {
     border-radius: 15px;
     background: var(--white);
 }
-
 
 .benefits-section {
     padding-top: 65px;

@@ -122,28 +122,13 @@ function displayServices(serviceList) {
         content.appendChild(heading);
         content.appendChild(description);
 
-        const arrow = document.createElement("span");
-        arrow.classList.add("card-arrow");
-
-        const arrowIcon = document.createElement("i");
-        arrowIcon.classList.add("fa-solid", "fa-arrow-right");
-
-        arrow.appendChild(arrowIcon);
-
         link.appendChild(imageContainer);
         link.appendChild(content);
-        link.appendChild(arrow);
 
         card.appendChild(link);
         serviceCards.appendChild(card);
     });
 
-    serviceCount.textContent =
-        serviceList.length +
-        (serviceList.length === 1 ? " Service" : " Services");
-
-    noResults.hidden = serviceList.length !== 0;
-    serviceCards.hidden = serviceList.length === 0;
 }
 
 function searchServices() {
