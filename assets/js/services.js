@@ -45,19 +45,19 @@ const services = [
         name: "Mobile & Electronics",
         description: "Mobile repair and electronics repair",
         image: "../mobile-electronics.jpg",
-        className: "electronics",
+        className: "mobile",
     },
     {
         name: "Home Repair",
         description: "Painting, wall repair and more",
         image: "../home-repair.jpg",
-        className: "home-repair",
+        className: "home",
     },
     {
         name: "Water Pump Repair",
         description: "Installation, servicing and more",
         image: "../water-pump-repair.jpg",
-        className: "water-pump",
+        className: "waterpump",
     },
     {
         name: "Farm Services",
@@ -65,12 +65,7 @@ const services = [
         image: "../farm-services.jpg",
         className: "farm",
     },
-    {
-        name: "More Services",
-        description: "Explore our other available services",
-        image: "../more-services.jpg",
-        className: "more",
-    },
+ 
 ];
 
 const serviceCards = document.getElementById("serviceCards");

@@ -34,24 +34,24 @@ const serviceCategories = {
                 price: 999,
                 image: "../services/house-wiring.jpg",
             },
-            // {
-            //     name: "MCB / DB Repair",
-            //     description: "Repair MCBs and electrical distribution boards.",
-            //     price: 349,
-            //     image: "../services/mcb-repair.jpg",
-            // },
-            // {
-            //     name: "Security Camera Installation",
-            //     description: "Install CCTV cameras for homes and offices.",
-            //     price: 499,
-            //     image: "../services/security-camera.jpg",
-            // },
-            // {
-            //     name: "Inverter Installation",
-            //     description: "Install inverter and battery backup systems.",
-            //     price: 499,
-            //     image: "../services/inverter-installation.jpg",
-            // },
+            {
+                name: "MCB / DB Repair",
+                description: "Repair MCBs and electrical distribution boards.",
+                price: 349,
+                image: "../services/mcb-repair.jpg",
+            },
+            {
+                name: "Security Camera Installation",
+                description: "Install CCTV cameras for homes and offices.",
+                price: 499,
+                image: "../services/security-camera.jpg",
+            },
+            {
+                name: "Inverter Installation",
+                description: "Install inverter and battery backup systems.",
+                price: 499,
+                image: "../services/inverter-installation.jpg",
+            },
             {
                 name: "Electrical Troubleshooting",
                 description: "Identify electrical faults and power problems.",
@@ -151,20 +151,20 @@ const serviceCategories = {
         description:
             "Find local carpenters for furniture repairs, doors and everyday woodwork.",
 
-        image: "assets/services/carpenter.jpg",
+        image: "../services/carpenter.jpg",
 
         services: [
             {
                 name: "Furniture Repair",
                 description: "Repair common furniture damage.",
                 price: 299,
-                image: "assets/services/furniture-repair.jpg",
+                image: "../services/furniture-repair.jpg",
             },
             {
                 name: "Door Repair",
                 description: "Fix common door and hinge problems.",
                 price: 249,
-                image: "assets/services/door-repair.jpg",
+                image: "../services/door-repair.jpg",
             },
         ],
     },
@@ -223,7 +223,7 @@ const serviceCategories = {
         description:
             "Find technicians for common smartphone repair and troubleshooting needs.",
 
-        image: "../mobile-repair.jpg",
+        image: "../mobile-electronics.jpg",
 
         services: [
             {
@@ -231,7 +231,7 @@ const serviceCategories = {
                 description: "Get your phone screen inspected for repair.",
                 price: 499,
                 image: "../services/screen-repair.jpg",
-            },
+            }
         ],
     },
 
@@ -240,7 +240,7 @@ const serviceCategories = {
         title: "Water Pump Repair Services",
         description: "Find help with common water pump and motor problems.",
 
-        image: "../water-pump.jpg",
+        image: "../water-pump-repair.jpg",
 
         services: [
             {
@@ -248,7 +248,7 @@ const serviceCategories = {
                 description: "Inspect common water pump problems.",
                 price: 399,
                 image: "../services/pump-repair.jpg",
-            },
+            }
         ],
     },
 
@@ -266,7 +266,7 @@ const serviceCategories = {
                 description: "Arrange inspection for common tractor problems.",
                 price: 599,
                 image: "../services/tractor-repair.jpg",
-            },
+            }
         ],
     },
 
@@ -284,7 +284,7 @@ const serviceCategories = {
                 description: "Get help with common household repairs.",
                 price: 299,
                 image: "../services/general-repair.jpg",
-            },
+            }
         ],
     },
 };
