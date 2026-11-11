@@ -410,6 +410,11 @@ const bookingMessage = document.getElementById("booking-message");
 
 const closeDialogButton = document.getElementById("close-dialog");
 
+const successDialog = document.getElementById("success-dialog");
+
+const successClose = document.getElementById("success-close");
+
+
 const now = new Date();
 
 const localDate = new Date(now.getTime() - now.getTimezoneOffset() * 60000);
@@ -440,18 +445,20 @@ bookingDialog.addEventListener("click", (event) => {
     }
 });
 
-bookingForm.addEventListener("submit", (event) => {
+bookingForm.addEventListener("submit", function (event) {
     event.preventDefault();
 
     if (!bookingForm.reportValidity()) {
         return;
     }
-});
-
-bookingForm.addEventListener("submit", function (event) {
-    event.preventDefault();
 
     bookingForm.reset();
 
     bookingDialog.close();
+
+    successDialog.showModal();
+});
+
+successClose.addEventListener("click", function () {
+    successDialog.close();
 });

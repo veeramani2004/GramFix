@@ -20,11 +20,14 @@
 
                 <ul class="nav-menu">
                     <li><a href="/index.html">Home</a></li>
-                    <li><a href="our_services.html" class="active">Our Services</a></li>
+                    <li>
+                        <a href="our_services.html" class="active"
+                            >Our Services</a
+                        >
+                    </li>
                     <li><a href="how_it_works.html">How It Works</a></li>
                     <li><a href="for_providers.html">For Providers</a></li>
                 </ul>
-
             </nav>
         </header>
 
@@ -199,6 +202,23 @@
 
                 <p id="booking-message" class="booking-message"></p>
             </form>
+        </dialog>
+
+        <dialog id="success-dialog" class="success-dialog">
+            <div class="success-content">
+                <div class="success-icon">
+                    <i class="fa-solid fa-check"></i>
+                </div>
+
+                <h2>Booking Successful!</h2>
+
+                <p>
+                    Your booking request has been submitted successfully. Thank
+                    you for choosing GramFix!
+                </p>
+
+                <button type="button" id="success-close">Continue</button>
+            </div>
         </dialog>
 
         <script src="../js/service_details.js"></script>
